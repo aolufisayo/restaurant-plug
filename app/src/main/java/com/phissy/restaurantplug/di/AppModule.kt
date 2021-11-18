@@ -2,6 +2,8 @@ package com.phissy.restaurantplug.di
 
 import com.phissy.restaurantplug.common.Constants
 import com.phissy.restaurantplug.data.RestaurantService
+import com.phissy.restaurantplug.data.repository.RestaurantRepositoryImpl
+import com.phissy.restaurantplug.domain.repository.RestaurantRepository
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -23,5 +25,11 @@ object AppModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
             .create(RestaurantService::class.java)
+    }
+
+    @Provides
+    @Singleton
+    fun providesRestaurantService(api: RestaurantService): RestaurantRepository{
+        return RestaurantRepositoryImpl(api)
     }
 }
