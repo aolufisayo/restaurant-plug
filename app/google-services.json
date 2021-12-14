@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "94170324686",
+    "project_id": "restaurant-phone-auth-6b21d",
+    "storage_bucket": "restaurant-phone-auth-6b21d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94170324686:android:15dbd8819e53df1bf5fa9f",
+        "android_client_info": {
+          "package_name": "com.phissy.restaurantplug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94170324686-f6g1c741e9ba7k13ktub69q0mb9pq8rr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phissy.restaurantplug",
+            "certificate_hash": "2441205c477c5952b843463e5bc1a38a404a1456"
+          }
+        },
+        {
+          "client_id": "94170324686-2h6ju8446p7fjevifl9k88t81fsamrik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACIJhxPurAdXKn0x-gp7lNRhnTL4sDcT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94170324686-2h6ju8446p7fjevifl9k88t81fsamrik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
